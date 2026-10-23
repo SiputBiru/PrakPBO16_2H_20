@@ -3,6 +3,12 @@ public class Anggota {
   private String alamat;
   private float simpanan;
 
+  Anggota(String nama, String alamat, float simpanan) {
+    this.nama = nama;
+    this.alamat = alamat;
+    this.simpanan = simpanan;
+  }
+
   public void setNama(String nama) {
     this.nama = nama;
   }
