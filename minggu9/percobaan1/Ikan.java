@@ -4,5 +4,4 @@ public class Ikan extends Hewan {
     System.out.println("Berjalan dengan SIRIP, \"wush..wush..\"");
   }
 
-  public abstract void bernafas();
 }
